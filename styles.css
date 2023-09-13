@@ -1,0 +1,21 @@
+:root {
+    --bgColor: #3d5382;
+    --white: #dfe7f7;
+    font-family: Roboto, sans-serif;
+    color: var(--white);
+}
+
+body {
+    background-color: var(--bgColor);
+}
+
+.center-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.studio-name {
+    text-align: center;
+    height: 100%;
+    color: var(--white);
+}
